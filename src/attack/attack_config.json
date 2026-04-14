@@ -1,29 +1,35 @@
 {
     "llama2-13b": {
-        "model_path": "/models/llama2/llama-2-13b-chat-hf"
+        "model_path": "/home/wky/models/llama2/llama-2-13b-chat-hf"
         },
     "llama2-70b": {
-        "model_path": "/models/Llama-2-70b-chat-hf"
+        "model_path": "/home/wky/models/Llama-2-70b-chat-hf"
+        },
+    "llama2-7b": {
+        "model_path": "/home/wky/models/llama2/llama-2-7b-chat-hf"
+        },
+    "vicuna-7b": {
+        "model_path": "/home/wky/models/vicuna/Xorbits/vicuna-7b-v1.5"
         },
     "zephyr": {
-        "model_path": "/models/zephyr-7b-beta"
+        "model_path": "/home/wky/models/zephyr-7b-beta"
         },
     "mixtral": {
-        "model_path": "/models/Mixtral-8x7B-Instruct-v0.1"
+        "model_path": "/home/wky/models/Mixtral-8x7B-Instruct-v0.1"
         },
     "nh2sft": {
-        "model_path": "/models/Nous-Hermes-2-Mixtral-8x7B-SFT"
+        "model_path": "/home/wky/models/Nous-Hermes-2-Mixtral-8x7B-SFT"
         },
     "nh2dpo": {
-        "model_path": "/models/Nous-Hermes-2-Mixtral-8x7B-DPO"
+        "model_path": "/home/wky/models/Nous-Hermes-2-Mixtral-8x7B-DPO"
         },
     "mistral": {
-        "model_path": "/models/Mistral-7B-Instruct-v0.2"
+        "model_path": "/home/wky/models/Mistral-7B-Instruct-v0.2"
         },
-    "vicuna": {
-        "model_path": "/models/vicuna/Xorbits/vicuna-13b-v1.5"
+    "vicuna-13b": {
+        "model_path": "/home/wky/models/vicuna/Xorbits/vicuna-13b-v1.5"
         },
     "harmbench": {
-        "model_path": "/models/HarmBench-Llama-2-13b-cls"
+        "model_path": "/home/wky/models/HarmBench-Llama-2-13b-cls"
     }
 }

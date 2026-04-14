@@ -26,6 +26,7 @@ class GPT(LanguageModel):
     API_MAX_RETRY = 5
     API_TIMEOUT = 20
     openai.api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_base = "https://api.chatanywhere.tech/v1"
 
     def generate(self, conv, 
                 max_n_tokens, 

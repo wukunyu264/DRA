@@ -53,7 +53,7 @@ attack_config = json.load(open('./attack_config.json', 'r'))
 model_path = attack_config['harmbench']['model_path']
 
 log_yellow('[*] Loading harmbench...')
-cls = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.bfloat16, device_map=torch.device('cuda:5'))
+cls = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.bfloat16, device_map=torch.device('cuda:2'))
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, truncation_side="left", padding_side="left")
 log_yellow('[*] Harmbench loaded!')
 
